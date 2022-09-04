@@ -23,10 +23,11 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
 
 \name{Onur Şahin} % Your name
 \address{Software Engineer} % Your address
-\address{https://github.com/onsah \\ sahinonur2000@hotmail.com} % Your phone number and email
+\address{sahinonur2000@hotmail.com \\ https://github.com/onsah} % Your phone number and email
 
 \begin{document}
 
@@ -67,21 +68,27 @@ Bilim ve Sanat Merkezi is a special foundation by the Turkey government which fo
 
 %------------------------------------------------
 
-\begin{rSubsection}{AJAX Hosting}{December 2009 - October 2010}{Lead Developer}{Austin, TX}
-\item Aenean ut gravida lorem. Ut turpis felis, Perl pulvinar a semper sed, adipiscing id dolor.
-\item Curabitur dapibus enim sit amet elit pharetra tincidunt website feugiat nisl imperdiet. Ut convallis AJAX libero in urna ultrices accumsan.
-\item Cum sociis natoque penatibus et magnis dis MySQL parturient montes, nascetur ridiculus mus.
-\item In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
-\item Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper.
-\end{rSubsection}
-
-%------------------------------------------------
-
-\begin{rSubsection}{TinySoft}{January 2008 - April 2010}{Web Designer \& Developer}{Gainesville, GA}
-\item Vivamus PostgreSQL fermentum semper porta. Nunc diam velit PHP, adipiscing ut tristique vitae
-\item Maecenas convallis ullamcorper ultricies stylesheets.
-\item Quisque mi metus, unit tests CSS ornare sit amet fermentum et, tincidunt et orci.
-\item Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id
+\begin{rSubsection}{Research and Internship at iVis}{June 2020 - December 2020}{}{Ankara, Turkey}
+\item Incremental Packing Research (In progress)
+\begin{list}{$\cdot$}{\leftmargin=2em}
+\itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \item Packing of disconnected graphs is an important topic in various areas. There are very efficient algorithms in terms of fullness but these algorithms ignore the initial layout of the graphs. We are trying to come up with a feasible packing algorithm that works incrementally so that user preserves their mental map
+\end{list}
+\item \href{https://github.com/iVis-at-Bilkent/cytoscape.js-layout-utilities}{Cytoscape Layout Utilities}
+\begin{list}{$\cdot$}{\leftmargin=2em}
+\itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \item Formerly, the packing algorithm of this extension was centering to the a fixed point
+    \item Added the ability to preserve to the current center of components
+    \item Fixed some bugs that would lead the algorithm to crash
+    \item For my contributions you can check PR \href{https://github.com/iVis-at-Bilkent/cytoscape.js-layout-utilities/pull/19}{\#19}
+\end{list}
+\item \href{https://github.com/onsah/cytoscape.js-context-menus}{Cytoscape Context Menus}
+\begin{list}{$\cdot$}{\leftmargin=2em}
+    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \item Removed jQuery dependency by replacing functionality of jQuery with DOM api or implementing the similar functions
+    \item Added recursive submenu feature. Formerly the extension only had top level menu and no submenu. I added nested submenus so that any menu item can have submenus
+    \item Configured project with webpack and babel to develop using modern js but deploy in more compatible js version for browsers. Learned about modern js tools such as bundlers and transpilers
+\end{list}
 \end{rSubsection}
 
 \end{rSection}
