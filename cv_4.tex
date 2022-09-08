@@ -54,12 +54,12 @@ Bilim ve Sanat Merkezi is a special foundation by the Turkey government which fo
 \begin{rSection}{Experience}
 
 \begin{rSubsection}{Carbon Health}{February 2021 - Present}{Full Stack Developer}{Remote}
-\item Mostly backend engineer using Scala \& Kotlin
+\item Mostly backend using Scala \& Kotlin
 \item Writing/Maintaining new microservices
 \begin{list}{$\cdot$}{\leftmargin=2em}
 \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
     \item Using technologies including PostgreSQL, gRPC, SQS/SNS, Elastic Search and many others.
-    \item Optimized a long running database read job from 25 hours to ~40 minutes with better use of database indexes and optimizing queries for performance.
+    \item Optimized a long running database read job from 25 hours to 40 minutes with better use of database indexes and optimizing queries to reduce time complexity.
     \item Designed and integrated an async workflow into the current system. Instrumented logging and observability tools to monitor problems easily.
     \item Designed and implemented a microservice.    
 \end{list}
@@ -69,7 +69,7 @@ Bilim ve Sanat Merkezi is a special foundation by the Turkey government which fo
 %------------------------------------------------
 
 \begin{rSubsection}{Research and Internship at iVis}{June 2020 - December 2020}{}{Ankara, Turkey}
-\item Incremental Packing Research (In progress)
+\item Incremental Packing Research
 \begin{list}{$\cdot$}{\leftmargin=2em}
 \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
     \item Packing of disconnected graphs is an important topic in various areas. There are very efficient algorithms in terms of fullness but these algorithms ignore the initial layout of the graphs. We are trying to come up with a feasible packing algorithm that works incrementally so that user preserves their mental map
@@ -82,15 +82,31 @@ Bilim ve Sanat Merkezi is a special foundation by the Turkey government which fo
     \item Fixed some bugs that would lead the algorithm to crash
     \item For my contributions you can check PR \href{https://github.com/iVis-at-Bilkent/cytoscape.js-layout-utilities/pull/19}{\#19}
 \end{list}
-\item \href{https://github.com/onsah/cytoscape.js-context-menus}{Cytoscape Context Menus}
-\begin{list}{$\cdot$}{\leftmargin=2em}
-    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
-    \item Removed jQuery dependency by replacing functionality of jQuery with DOM api or implementing the similar functions
-    \item Added recursive submenu feature. Formerly the extension only had top level menu and no submenu. I added nested submenus so that any menu item can have submenus
-    \item Configured project with webpack and babel to develop using modern js but deploy in more compatible js version for browsers. Learned about modern js tools such as bundlers and transpilers
-\end{list}
 \end{rSubsection}
 
+\end{rSection}
+
+\begin{rSection}{Projects}
+
+\begin{rSubsection}{(Conference Paper) Augmenting Code Review Experience Through Visualization}{September 2020-July 2021}{}{}
+    \item \url{https://ieeexplore.ieee.org/abstract/document/9604852}
+    \item Implemented a prototype tool that visualizes code difference between two versions of a Java project.
+    \item Tool is based on OOP concepts like packages, classes and fields and extensible to other classes. And extensible to other OOP languages.
+    \item Paper is presented on \href{https://vissoft.info/2021/}{VISSOFT 2021} conference.
+\end{rSubsection}
+
+\begin{rSubsection}{Contribution to the Jakt programming language}{}{}{}
+    \item Contribued to the typechecker and parser of the language.
+    \item \href{https://github.com/SerenityOS/jakt/pulls?q=is%3Apr+author%3Aonsah}{List of PRs that I opened.}
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://github.com/onsah/Flux_rs/}{Flux programming language} (Personal Project)}{}{}{}
+    \item Fully featured scripting language implementation.
+    \item Bytecode interpreted.
+    \item Completely written from scratch without using external libraries for parsing, compiling, etc.
+    \item Implemented using Rust.
+\end{rSubsection}
+    
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -100,12 +116,24 @@ Bilim ve Sanat Merkezi is a special foundation by the Turkey government which fo
 \begin{rSection}{Technical Strengths}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Computer Languages & Prolog, Haskell, AWK, Erlang, Scheme, ML \\
-Protocols \& APIs & XML, JSON, SOAP, REST \\
-Databases & MySQL, PostgreSQL, Microsoft SQL \\
-Tools & SVN, Vim, Emacs
+Areas & Parsers, Lexers, CRUD applications, Event driven programming \\
+Computer Languages & Scala, Rust, Java, Kotlin, OCaml \\
+Protocols \& APIs & REST, gRPC \\
+Databases & PostgreSQL \\
 \end{tabular}
 
+\end{rSection}
+
+\begin{rSection}{Other}
+    \item Placed 156th among 1.5 million student in Turkey University Entrance Exam (Ygs).
+    \item The textbooks that I read:
+    \begin{list}{$\cdot$}{\leftmargin=2em}
+    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \item Modern Compiler Construction in ML (Currently Reading)
+    \item Programming – Principles and Practice Using C++ - Bjarne Strousburp
+    \item The Rust Programming Language - Steve Klabnik and Carol Nichols
+    \end{list}
+    \item I play electro guitar for two years now. I like to cover my favorite songs and write my own instrumental pieces.
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
