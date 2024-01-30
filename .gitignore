@@ -1,0 +1,8 @@
+*.aux
+*.fbb_latexmk
+*.fls
+*.log
+*.out
+*.gz
+.direnv/
+outputs/
