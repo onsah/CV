@@ -21,27 +21,27 @@ Software developer interested in Systems Programming. Computer Science Masters s
   "Berlin, Germany",
   "Oct 2025 - Feb 2026",
   [
-    Worked in Redshift database engine to migrate an existing system that is implemented outside of the engine to the inside.
+    Migrated an existing external component into the Redshift database engine.
 
     - Studied the existing implementation codebase and documented the functionality.
-    - Ported a program written in a Python lambda into C++ code within the core engine codebase.
+    - The old component was written in Python. I converted it into C++.
     - Ported external data extraction functionality to extract the necessary information from within the database engine.
-    - Written Unit tests and end to end tests.
+    - Written unit tests and end to end tests to ensure compatibility with the existing beahviour.
   ]
 )
 
 #exp(
   "Carbon Health",
-  "Full Stack Developer (70% Backend)",
+  "Full Stack Developer (Primarily Backend)",
   "Turkey (Remote)",
   "Feb 2021 - Sep 2023",
   [
     - Mostly backend using Scala \& Kotlin
     - Writing/Maintaining new microservices
-      - Using technologies including PostgreSQL, gRPC, SQS/SNS,Jan Elastic Search and many others.
-      - Optimized a long running database read job from 25 hours to 40 minutes with better use of database indexes and optimizing queries to reduce time complexity.
-      - Designed and integrated an async workflow into the current system. Instrumented logging and observability tools to monitor problems easily.
-      - Designed and implemented a microservice.
+      - Using technologies including PostgreSQL, gRPC, SQS/SNS, Elastic Search and many others.
+      - Led the design and implementation of a microservice from scratch.
+    - Optimized a long running database read job from 25 hours to 40 minutes with better use of database indexes and optimizing queries to reduce time complexity.
+    - Designed and integrated an async workflow into the current system. Instrumented logging and observability tools to monitor problems easily.
     - Worked on React Native projects when needed.
   ]
 )
@@ -55,7 +55,8 @@ Software developer interested in Systems Programming. Computer Science Masters s
   [
     - Implemented a prototype tool that visualizes code difference between two versions of a Java project.
     - Tool is based on OOP concepts like packages, classes and fields and extensible to other classes. And extensible to other OOP languages.
-    - Paper is presented on #link("https://vissoft.info/2021/")[VISSOFT 2021] conference.
+    - Participated in the backend implementation of the project: https://github.com/MntsShrmp/DERT-Backend
+    - Paper is presented on #link("https://vissoft.info/2021/")[VISSOFT 2021] conference: https://ieeexplore.ieee.org/abstract/document/9604852
   ]
 )
 
@@ -76,7 +77,7 @@ Software developer interested in Systems Programming. Computer Science Masters s
   "Flux",
   "Programmig Language",
   "https://github.com/onsah/Flux_rs/",
-  "Personal Project",
+  "",
   [
     Flux is my personal programming language that is similar to Lua with some functional programming features.
 
@@ -106,7 +107,7 @@ Software developer interested in Systems Programming. Computer Science Masters s
   "Oct 2023 – Present",
   [Took courses related to Formal verification, Compilers, SAT Solving and Databases. Will be working on my thesis project with Prof. Peter Thiemann.
 
-  Current GPA: 1.1 [1.0-4.0] (Lower is better)
+  Current GPA: 1.1/1.0 (Lower is better)
   ]
 )
 
@@ -115,9 +116,7 @@ Software developer interested in Systems Programming. Computer Science Masters s
   "B.S. in Computer Science",
   "Turkey",
   "Sep 2017 – Jul 2021",
-  [Took courses related to Formal verification, Compilers, SAT Solving and Databases. Will be working on my thesis project with Prof. Peter Thiemann.
-
-  Current GPA: 1.1 [1.0-4.0] (Lower is better)
+  [Graduating GPA: 3.49/4.00 (Higher is better). Full Scholarship. Graduated with high honour award.
   ]
 )
 
