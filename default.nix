@@ -1,23 +1,13 @@
-{ pkgs ? import <nixpkgs> {}   # Use the pinned sources.
-}:
-
-with pkgs;
-
+{ system ? builtins.currentSystem, sources ? import ./npins, }:
+let pkgs = import sources.nixpkgs { inherit system; };
+in with pkgs;
 stdenv.mkDerivation {
   name = "aiono-CV";
-  buildInputs = [ (texlive.combine {
-                    inherit (texlive)
-                      scheme-small
-
-                      # Add other LaTeX libraries (packages) here as needed, e.g:
-                      # stmaryrd amsmath pgf
-
-                      # build tools
-                      latexmk
-                      ;
-                  })
-                  glibcLocales
-                ];
+  buildInputs = [
+    (texlive.combine { inherit (texlive) scheme-small latexmk; })
+    glibcLocales
+    typst
+  ];
   src = ./.;
   buildPhase = "make";
 
